@@ -2,7 +2,7 @@
 
 # -- Project information
 
-project = 'EHR-QC'
+project = 'linc2function'
 copyright = '2023, Sonika Tyagi'
 author = 'Yashpal Ramakrishnaiah'
 
