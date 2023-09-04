@@ -1,4 +1,4 @@
-Installation
+Command-line
 ------------
 
 Make sure you satisfy the requirements provided below to ensure smooth working of the utility;
@@ -16,8 +16,8 @@ Software Requirements
 
 Python 3.8 or above
 
-Step-by-step procedure
-~~~~~~~~~~~~~~~~~~~~~~
+Installation
+~~~~~~~~~~~~
 
 Follow the below steps to install linc2function in your computer.
 
