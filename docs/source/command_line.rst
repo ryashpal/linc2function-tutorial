@@ -95,41 +95,68 @@ Install all the required dependencies listed in the requirements.txt file in the
 
     (.venv) user@hostname:~/workspace/linc2functionpipeline$pip install -r requirements.txt
 
+
 Usage
 ~~~~~
+
 
 Human Specific Basic (HSB) Model
 """"""""""""""""""""""""""""""""
 
-Execute the following command to invoke Human Specific Basic (HSB) model.
+Execute the following command to invoke Human Specific Basic (HSB) model to predict if a given sequence is a non-coding RNA.
 
 .. code-block:: console
 
     (.venv) username@hostname:~$python3 main.py predict_hs_model <sequence> <mode> <model_path> <scalers_path>
+
+For example;
+
+.. code-block:: console
+
+    (.venv) username@hostname:~$python3 main.py predict_hs_model 'ACUCCAGAAUGGGCUCCCUCAGUCGGAAGUCUCCCCGCUCCACCGCCCCCAGUGUAACCCCUCCAACCC' 'basic' /path/to/model.h5 path/to/scaler.pkl
+
 
 Species Agnostic Basic (SAB) Model
 """"""""""""""""""""""""""""""""""
 
-Execute the following command to invoke Species Agnostic Basic (SAB) model.
+Execute the following command to invoke Species Agnostic Basic (SAB) model to predict if a given sequence is a non-coding RNA.
 
 .. code-block:: console
 
     (.venv) username@hostname:~$python3 main.py predict_sa_model  <sequence> <mode> <model_path> <scalers_path>
 
+For example;
+
+.. code-block:: console
+
+    (.venv) username@hostname:~$python3 main.py predict_sa_model 'ACUCCAGAAUGGGCUCCCUCAGUCGGAAGUCUCCCCGCUCCACCGCCCCCAGUGUAACCCCUCCAACCC' 'basic' /path/to/model.h5 path/to/scaler.pkl
+
 Human Specific Standard (HSS) Model
 """"""""""""""""""""""""""""""""
 
-Execute the following command to invoke Human Specific Standard (HSS) model.
+Execute the following command to invoke Human Specific Standard (HSS) model to predict if a given sequence is a non-coding RNA.
 
 .. code-block:: console
 
     (.venv) username@hostname:~$python3 main.py predict_hs_model <sequence> <mode> <model_path> <scalers_path>
 
+For example;
+
+.. code-block:: console
+
+    (.venv) username@hostname:~$python3 main.py predict_hs_model 'ACUCCAGAAUGGGCUCCCUCAGUCGGAAGUCUCCCCGCUCCACCGCCCCCAGUGUAACCCCUCCAACCC' 'standard' /path/to/model.h5 path/to/scaler.pkl
+
 Species Agnostic Standard (SAS) Model
 """"""""""""""""""""""""""""""""""
 
-Execute the following command to invoke Species Agnostic Standard (SAS) model.
+Execute the following command to invoke Species Agnostic Standard (SAS) model to predict if a given sequence is a non-coding RNA.
 
 .. code-block:: console
 
     (.venv) username@hostname:~$python3 main.py predict_sa_model  <sequence> <mode> <model_path> <scalers_path>
+
+For example;
+
+.. code-block:: console
+
+    (.venv) username@hostname:~$python3 main.py predict_sa_model 'ACUCCAGAAUGGGCUCCCUCAGUCGGAAGUCUCCCCGCUCCACCGCCCCCAGUGUAACCCCUCCAACCC' 'standard' /path/to/model.h5 path/to/scaler.pkl
