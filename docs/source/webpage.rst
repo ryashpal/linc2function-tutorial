@@ -70,15 +70,45 @@ Upon loading the sequence (highlighted) the pipeline can be run by pressing the 
 Results
 ~~~~~~~
 
+Transcript Details
+""""""""""""""""""
+
+This section provides the transcript name (as obtained from the FASTA data), probability of this sequence being LncRNA as per the selections in the previous page, and its triplex forming potential.
+
 .. image:: images/result_transcript_details.PNG
+
+Protein Interactome
+"""""""""""""""""""
+
+This section lists the predicted Protein Interactome of the transcript, containing the RNA Binding Protein (RBP), scores, binding site seuqence and its coordinates.
 
 .. image:: images/result_protein_interactome.PNG
 
+RNA Interactome
+"""""""""""""""
+
+This section lists the predicted RNA Interactome of the transcript, containing the target name, target length, associated energy measurements, and the coordinates of both the transcript and the target.
+
 .. image:: images/result_rna_interactome.PNG
+
+RNA Structure (Arc)
+"""""""""""""""""""
+
+This section lists the predicted RNA secondary structure of the transcript as an arc diagram.
 
 .. image:: images/result_ss_arc.PNG
 
+RNA Structure (2D)
+"""""""""""""""""""
+
+This section lists the predicted RNA secondary structure of the transcript as a 2D diagram.
+
 .. image:: images/result_ss_2d.PNG
+
+RNA Structure (2D)
+"""""""""""""""""""
+
+Lastly, the section lists input sequence and an URL for accessing the generated analysis in future.
 
 .. image:: images/result_result.PNG
 
