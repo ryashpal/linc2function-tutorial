@@ -94,3 +94,42 @@ Install all the required dependencies listed in the requirements.txt file in the
 .. code-block:: console
 
     (.venv) user@hostname:~/workspace/linc2functionpipeline$pip install -r requirements.txt
+
+Usage
+~~~~~
+
+Human Specific Basic (HSB) Model
+""""""""""""""""""""""""""""""""
+
+Execute the following command to invoke Human Specific Basic (HSB) model.
+
+.. code-block:: console
+
+    (.venv) username@hostname:~$python3 main.py predict_hs_model <sequence> <mode> <model_path> <scalers_path>
+
+Species Agnostic Basic (SAB) Model
+""""""""""""""""""""""""""""""""""
+
+Execute the following command to invoke Species Agnostic Basic (SAB) model.
+
+.. code-block:: console
+
+    (.venv) username@hostname:~$python3 main.py predict_sa_model  <sequence> <mode> <model_path> <scalers_path>
+
+Human Specific Standard (HSS) Model
+""""""""""""""""""""""""""""""""
+
+Execute the following command to invoke Human Specific Standard (HSS) model.
+
+.. code-block:: console
+
+    (.venv) username@hostname:~$python3 main.py predict_hs_model <sequence> <mode> <model_path> <scalers_path>
+
+Species Agnostic Standard (SAS) Model
+""""""""""""""""""""""""""""""""""
+
+Execute the following command to invoke Species Agnostic Standard (SAS) model.
+
+.. code-block:: console
+
+    (.venv) username@hostname:~$python3 main.py predict_sa_model  <sequence> <mode> <model_path> <scalers_path>
