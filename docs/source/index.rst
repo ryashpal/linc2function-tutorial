@@ -80,4 +80,4 @@ Contents
 
 .. toctree::
 
-   install
+   introduction
