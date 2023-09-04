@@ -1,5 +1,7 @@
-linc2function: A Deep Learning Approach to assign functions to long noncoding RNA
-=================================================================================
+linc2function
+=============
+
+A Deep Learning Approach to assign functions to long noncoding RNA
 
 Webpage
 -------
