@@ -8,3 +8,6 @@ We have addressed these challenges in our pipeline called Linc2Function. First, 
 
 Pipeline Workflow
 -----------------
+
+.. image:: source/images/pipeline.png
+Figure 1: The workflow diagram of linc2function pipeline
