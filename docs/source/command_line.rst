@@ -44,7 +44,7 @@ From the home directory which will be open by default, change to a suitable dire
 Clone
 """""
 
-In the workspace directory, clone the current version of EHR-QC repository from the GitHub.
+In the workspace directory, clone the current version of linc2functionpipeline repository from the GitHub.
 
 .. code-block:: console
 
