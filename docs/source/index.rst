@@ -75,3 +75,9 @@ For using Human Species Agnostic
 
     (.venv) username@hostname:~$python3 main.py predict_sa_model  <sequence> <model_path> <scalers_path>
 
+Contents
+--------
+
+.. toctree::
+
+   install
