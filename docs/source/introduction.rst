@@ -10,39 +10,8 @@ Inconsistencies between databases reporting lncRNA in the human genome exist and
 
 We have addressed these challenges in our pipeline called Linc2Function. First, we extracted different features of lncRNA and evaluated them individually to obtain important features with high discriminative ability between a lncRNA and other RNA transcripts. Next, we built an ANN model with selected features to identify lncRNA given only a sequence. Finally, we integrated the identification module to the pipeline along with two other modules that can predict the secondary structure and obtain the interacting structural domains along with partner biomolecules. Our pipeline is the first to report annotation at the structural domain level. Benchmarking results show that Linc2Function can generalize well across species and performs on par with the state of the art methods available. The pipeline is accessible both via a web-interface and as a standalone downloadable tool.
 
-Usage
-~~~~~
+Pipeline workflow
+~~~~~~~~~~~~~~~~~
 
-.. image:: images/initial.png
-
-.. image:: images/initial_sequence.png
-
-.. image:: images/initial_architecture.png
-
-.. image:: images/initial_mode.png
-
-.. image:: images/initial_type.png
-
-.. image:: images/initial_submit.PNG
-
-.. image:: images/initial_reset.PNG
-
-.. image:: images/initial_load.PNG
-
-.. image:: images/seq_loaded.PNG
-
-Results
-~~~~~~~
-
-.. image:: images/result_transcript_details.PNG
-
-.. image:: images/result_protein_interactome.PNG
-
-.. image:: images/result_rna_interactome.PNG
-
-.. image:: images/result_ss_arc.PNG
-
-.. image:: images/result_ss_2d.PNG
-
-.. image:: images/result_result.PNG
-
+.. image:: images/pipeline.png
+Figure 1: The workflow diagram of linc2function pipeline
