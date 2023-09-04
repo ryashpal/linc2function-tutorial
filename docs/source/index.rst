@@ -12,3 +12,4 @@ Contents
     introduction
     webpage
     command_line
+    conservation_pipeline
