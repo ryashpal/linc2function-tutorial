@@ -11,5 +11,4 @@ Contents
 
     introduction
     webpage
-    install
-    usage
+    command_line
