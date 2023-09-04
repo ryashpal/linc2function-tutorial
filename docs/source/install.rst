@@ -1,18 +1,21 @@
+Installation
+------------
+
 System Requirements
--------------------
+~~~~~~~~~~~~~~~~~~~
 
 Hardware Requirements
-~~~~~~~~~~~~~~~~~~~~~
+"""""""""""""""""""""
 
 A standard computer with around 16 GB RAM
 
 Software Requirements
-~~~~~~~~~~~~~~~~~~~~~
+"""""""""""""""""""""
 
 Python 3.6 virtualanv
 
-Installation
-------------
+Step-by-step procedure
+----------------------
 
 To run linc2functionPipeline in your system, please follow the below steps;
 
