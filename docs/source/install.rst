@@ -17,13 +17,13 @@ Software Requirements
 Python 3.8 or above
 
 Step-by-step procedure
-----------------------
+~~~~~~~~~~~~~~~~~~~~~~
 
 Follow the below steps to install linc2function in your computer.
 
 
 Login
-~~~~~
+"""""
 
 Upon login to a system and opening a terminal, the following prompt should appear, where the ``user`` is the user name and the ``hostname`` is the hostname of the system.
 
@@ -33,7 +33,7 @@ Upon login to a system and opening a terminal, the following prompt should appea
 
 
 Change directory
-~~~~~~~~~~~~~~~~
+""""""""""""""""
 
 From the home directory which will be open by default, change to a suitable directory on your computer where the utility needs to be installed. For example, in this tutorial we have changed to ``workspace`` directory.
 
@@ -42,7 +42,7 @@ From the home directory which will be open by default, change to a suitable dire
    user@hostname:~$ cd workspace
 
 Clone
-~~~~~
+"""""
 
 In the workspace directory, clone the current version of EHR-QC repository from the GitHub.
 
@@ -51,7 +51,7 @@ In the workspace directory, clone the current version of EHR-QC repository from 
     username@hostname:~$git clone https://gitlab.com/tyagilab/linc2functionpipeline.git
 
 Open linc2function
-~~~~~~~~~~~~~~~~~~
+""""""""""""""""""
 
 Open the linc2function directory that is downloaded from GitHub after cloning.
 
@@ -60,7 +60,7 @@ Open the linc2function directory that is downloaded from GitHub after cloning.
     username@hostname:~$cd linc2functionpipeline
 
 Python virtual environment
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+""""""""""""""""""""""""""
 
 The Python virtual environment encaptulates all the libraries required for the linc2function. All the necessary libraries listed in a requirements.txt file that can be found at the root of the repository. Below are the instructions to create and install dependancies in the Python virtual environment.
 
