@@ -48,7 +48,7 @@ In the workspace directory, clone the current version of linc2functionpipeline r
 
 .. code-block:: console
 
-    username@hostname:~$git clone https://gitlab.com/tyagilab/linc2functionpipeline.git
+    username@hostname:~/workspace$git clone https://gitlab.com/tyagilab/linc2functionpipeline.git
 
 Open linc2function
 """"""""""""""""""
@@ -57,7 +57,7 @@ Open the linc2function directory that is downloaded from GitHub after cloning.
 
 .. code-block:: console
 
-    username@hostname:~$cd linc2functionpipeline
+    username@hostname:~/workspace$cd linc2functionpipeline
 
 Python virtual environment
 """"""""""""""""""""""""""
