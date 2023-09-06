@@ -77,6 +77,13 @@ This section provides the transcript name (as obtained from the FASTA data), pro
 
 .. image:: images/result_transcript_details.PNG
 
+SHAP values
+"""""""""""
+
+This section contains the SHapley Additive exPlanations (SHAP) values for the selected model indicating the relative importance of the individual features in model prediction.
+
+.. image:: images/result_shap_diagram.png
+
 Protein Interactome
 """""""""""""""""""
 
